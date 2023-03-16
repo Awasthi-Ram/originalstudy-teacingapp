@@ -32,15 +32,17 @@
        flex: 5;
         .search {
           width: 400px;
-          height: 24px;
           border: 1px solid gray;
-          border-radius: 10px;
+          border-radius: .5rem;
           display: flex;
           align-items: center;
         }
         
         .searchInput {
           width: 80%;
+          font-size: 1.1rem;
+          padding: .25rem;
+          font-weight: 500;
           border: none;
           background-color: transparent;
           margin-left: 20px;
